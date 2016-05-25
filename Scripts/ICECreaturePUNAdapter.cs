@@ -22,7 +22,7 @@ using ICE.World;
 using ICE.Creatures;
 using ICE.Creatures.Objects;
 using ICE.Creatures.EnumTypes;
-using ICE.Utilities;
+using ICE.World.Utilities;
 
 namespace ICE.Creatures.Adapter
 {

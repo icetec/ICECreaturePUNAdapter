@@ -22,7 +22,7 @@ using ICE.World;
 using ICE.Creatures;
 using ICE.Creatures.Objects;
 using ICE.Creatures.EnumTypes;
-using ICE.Utilities;
+using ICE.World.Utilities;
 
 namespace ICE.Creatures.Adapter
 {
@@ -135,8 +135,7 @@ namespace ICE.Creatures.Adapter
 			// ("call this in OnJoinedRoom to make sure no cached RPCs are fired in the wrong scene")
 			// also, get level from room properties / master
 
-			// send spawn request to master client
-			string name = "Unnamed";
+
 
 			// sent as RPC instead of in 'OnPhotonPlayerConnected' because the
 			// MasterClient does not run the latter for itself + we don't want
